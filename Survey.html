@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="content-type" charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="SurveyStyle.css">
+    <title>アンケート</title>
+    <script src="script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <header>
+        <img class="fadein" src="4382471_s.jpg" alt="cards">
+    </header>
+    <!-- Main content -->
+    <main>
+        <div class="questionnaire">
+            <h1>アンケート</h1>
+            <!-- Question1 -->
+            <div class="question-text">
+                <p>Q1.ホームページの内容は分かりやすかったですか？</p>
+                <label><input type="radio" name="A_button" value="1" onclick="q1=1" checked="checked">大変分かりやすかった</label>
+                <label><input type="radio" name="A_button" value="2" onclick="q2=2">分かりやすかった</label>
+                <label><input type="radio" name="A_button" value="3" onclick="q3=3">どちらでもない</label>
+                <label><input type="radio" name="A_button" value="4" onclick="q4=4">分かりにくかった</label>
+                <lable><input type="radio" name="A_button" value="5" onclick="q5=5">大変分かりにくかった</lable>
+            </div>
+            <!-- Question2 -->
+            <div class="question-text">
+                <p>Q2. ポーカーをプレーしてみたいと思いましたか？</p>
+                <label><input type="radio" name="B_button" value="1" onclick="q1=1" checked="checked">とても遊んでみたい</label>
+                <label><input type="radio" name="B_button" value="2" onclick="q2=2">遊んでみたい</label>
+                <label><input type="radio" name="B_button" value="3" onclick="q3=3">どちらとも思わない</label>
+                <label><input type="radio" name="B_button" value="4" onclick="q4=4">遊びたくない</label>
+            </div>
+            <!-- Question3 -->
+            <div class="question-text">
+                <p>Q3. 他にどんなカード/テーブルゲームの紹介をしてほしいですか？</p>
+                <label><input type="radio" name="C_button" value="1" onclick="q1=1" checked="checked">ブラックジャック</label>
+                <label><input type="radio" name="C_button" value="2" onclick="q2=2">麻雀</label>
+                <label><input type="radio" name="C_button" value="3" onclick="q3=3">花札</label>
+                <label><input type="radio" name="C_button" value="4" onclick="q4=4">その他</label>
+            </div>
+            <!-- Question4 -->
+            <div id="text-box">
+                <p>Q5. Q4でその他とお答えした場合、どのようなゲームの紹介をしてほしいですか？</p>
+                <label><input type="text"></label>
+                <!-- Submit button -->
+                <form id="btn" name="submittion_form" action="Website.html" onsubmit="return confirmation();">
+                    <input type="submit" value="送信">
+                </form>
+
+            </div>
+    </main>
+    <script src="designScript.js"></script>
+</body>
