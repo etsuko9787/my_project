@@ -1,0 +1,212 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Setting website header */
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: #404040;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+.container {
+    width: max-content;
+}
+
+.header a {
+    text-align: center;
+    display: inline-block;
+    color: whitesmoke;
+    padding: 15px;
+    text-decoration: none;
+    margin-left: 180px;
+    margin-top: 5px;
+    transition: all 0.5s;
+}
+
+.header a:hover {
+    background-color: white;
+    color: #404040;
+    opacity: 0.5;
+}
+
+/* Setting the top page of the website */
+
+.top-wrapper {
+    text-align: center;
+    clear: center;
+    padding-top: 245px;
+    padding-bottom: 230px;
+    background-image: url("straight-flush-royal-flush-wallpaper-preview.jpg");
+    background-size: cover;
+}
+
+.title {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.top-wrapper h1 {
+    padding: 10px, 0;
+    font-size: 60px;
+    color: #001e43;
+}
+
+.top-wrapper h2 {
+    color: 8da0b6;
+    font-size: 45px;
+}
+
+/* Text-contents */
+
+.text-contents {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #ececec;
+}
+
+/* Ajusting the header's link locations */
+
+#introduction {
+    padding-top: 40px;
+    margin-top: -60px;
+}
+
+#poker {
+    padding-top: 40px;
+    margin-top: -60px;
+}
+
+#rule1 {
+    padding-top: 40px;
+    margin-top: -60px;
+}
+
+#rule2 {
+    padding-top: 40px;
+    margin-top: -60px;
+}
+
+#summary {
+    padding-top: 40px;
+    margin-top: -60px;
+}
+
+.text-contents h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: gray;
+    color: white;
+}
+
+.text-contents p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.video iframe {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-left: 29.5%;
+}
+
+/* Summary design */
+
+.online-game img {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-left: 42.5%
+}
+
+/* Links to the apps */
+.button-i {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    margin-right: 20px;
+}
+
+.button-i:hover {
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color: #f6f6f6;
+}
+
+.button-i:active {
+    position: relative;
+    top: 1px;
+}
+
+.button-a {
+    box-shadow: inset 0px 1px 0px 0px #a4e271;
+    background: linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+    background-color: #89c403;
+    border-radius: 6px;
+    border: 1px solid #74b807;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #528009;
+    margin-left: 20px;
+}
+
+.button-a:hover {
+    background: linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+    background-color: #77a809;
+}
+
+.button-a:active {
+    position: relative;
+    top: 1px;
+}
+
+.button-s {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.button-s:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.button-s:active {
+	position:relative;
+	top:1px;
+}
